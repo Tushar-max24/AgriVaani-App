@@ -1,7 +1,11 @@
-__pycache__/
-*.pyc
-.env
+# Ignore ML models
+*.h5
+*.pt
+*.onnx
+
+# Ignore virtual environment
 venv/
-venv_tf/
-.idea/
-.vscode/
+__pycache__/
+
+# Ignore env files
+.env
